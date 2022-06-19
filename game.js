@@ -41,7 +41,7 @@ function checkAnswer(currentLevel) {
 
       setTimeout(function () {
         $("body").removeClass("game-over");
-      }, 200);
+      }, 1000);
 
       startOver();
     }
@@ -51,7 +51,7 @@ function checkAnswer(currentLevel) {
 function nextSequence() {
   userClickedPattern = [];
   level++;
-  $("#level-title").text("Level " + level);
+  $("#level-title").text("Your level is " + level);
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
