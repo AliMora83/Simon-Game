@@ -1,13 +1,16 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #242424;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-family: 'Roboto', sans;
+  font-size: 2rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: gray;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 100;
 }
 
 .container {
@@ -22,7 +25,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 6px solid black;
   border-radius: 20%;
 }
 
@@ -44,7 +47,7 @@ body {
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #f7ab0a;
 }
 
 .pressed {
@@ -53,16 +56,21 @@ body {
 }
 
 footer {
-  color: #fff;
-  font-family: 'Press Start 2P', cursive;
+  color: gray;
+  font-family: 'Poppins', sans;
   padding-top: 40px;
 }
 
 footer:hover {
-  color: #004a9a;
+  color: f7ab0a#;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.yell {
+  color: #f7ab0a;
+  font-weight: 500;
 }
