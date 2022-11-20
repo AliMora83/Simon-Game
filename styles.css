@@ -10,7 +10,7 @@ body {
   color: gray;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .container {
@@ -62,7 +62,7 @@ footer {
 }
 
 footer:hover {
-  color: f7ab0a#;
+  color: #f7ab0a;
 }
 
 a {
